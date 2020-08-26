@@ -1,0 +1,52 @@
+.V3-download-kp {
+    margin: 80px 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+}
+
+.V3-download-img-div-kp {
+    padding-left: 15%;
+}
+
+.V3-download-img-kp {
+    width: 100%;
+}
+
+.V3-download-text-kp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.V3-download-h2-kp {
+    align-self: flex-start;
+    color: #ffa500;
+    font-size: 26px;
+    margin-bottom: 40px;
+}
+
+.V3-download-p-kp {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.V3-download-button-kp {
+    outline: none;
+    background-color: #FFA500;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+    border-radius: 50px;
+    border: 1px solid #FFA500;
+    color: white;
+    transition: .25s linear;
+}
+
+.V3-download-button-kp:hover {
+    box-shadow: 0 0 20px #FFA500;
+    border: 1px solid #FFA500;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}

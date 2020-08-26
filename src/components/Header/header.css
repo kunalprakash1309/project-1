@@ -1,0 +1,23 @@
+.V3-header-kp {
+    height: 120vh;
+    background: url('../../images/header.png') no-repeat center center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.V3-header-about-kp {
+    padding-top: 20%;
+    padding-left: 80px;
+    color: white;
+}
+
+.V3-Headerh4-kp {
+    font-size: 28px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.V3-Headerh1-kp {
+    font-size: 72px;
+    font-weight: 100;
+}

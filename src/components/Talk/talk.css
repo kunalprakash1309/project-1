@@ -1,0 +1,33 @@
+.V3-talk-kp {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 100px;
+    padding: 100px 0 200px 0;
+}
+
+.V3-talk-h2-kp {
+    font-size: 44px;
+}
+
+.V3-talk-button-kp {
+    width: 55%;
+    outline: none;
+    background-color: #FFA500;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+    border-radius: 50px;
+    border: 1px solid #FFA500;
+    color: white;
+    justify-self: start;
+}
+
+.V3-talk-button-kp:hover {
+    box-shadow: 0 0 20px #FFA500;
+    border: 1px solid #FFA500;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}

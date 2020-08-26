@@ -1,0 +1,42 @@
+.V3-cards-kp {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 55px;
+    grid-gap: 55px;
+
+}
+
+.V3-card-kp {
+    box-shadow:0 0 50px #ccc;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.V3-card-img-div-kp {
+    padding: 5px 50px;
+    margin-bottom: 20px;
+}
+
+.V3-card-img-kp {
+    width: 100%;
+}
+
+.V3-card-about-kp {
+    margin: 0 20px;
+    padding-bottom: 60px;
+}
+
+.V3-card-h3-kp{
+    text-align: center;
+    color: #ffa500;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.V3-card-p-kp {
+    margin-left: 20px;
+    font-size: 16px;
+}

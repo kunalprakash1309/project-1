@@ -1,0 +1,53 @@
+.V3-benefits-kp {
+    height: 140vh;
+    background: url('../../images/benefits.png') no-repeat right center;
+    background-size: cover;
+}
+
+.V3-benefits-text-div-kp{
+    width: 40%;
+    margin: 0 5%;
+    padding-top: 22%;
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr 1fr 2fr;
+    align-items: center;
+    grid-gap: 20px;
+    color: white;
+}
+
+.V3-benefits-h2-kp {
+    font-size: 30px;
+}
+
+.V3-benefits-para1-kp {
+    font-size: 18px;
+}
+
+.V3-benefits-para2-kp {
+    font-size: 18px;
+}
+
+.V3-benefits-para3-kp {
+    font-size: 18px;
+}
+
+.V3-benefits-button-kp{
+    width: 50%;
+    outline: none;
+    background-color: #FFA500;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    transition: .25s linear;
+}
+
+.V3-benefits-button-kp:hover {
+    box-shadow: 0 0 20px #FFA500;
+    border: 1px solid #FFA500;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}

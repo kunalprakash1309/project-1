@@ -1,0 +1,52 @@
+.V3-about-kp {
+    margin: 0 40px;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    grid-template-rows: auto;
+    grid-column-gap: 100px;
+    margin-bottom: 100px;
+}
+
+.V3-about-img-kp {
+    width: 100%;
+}
+
+.V3-about-text-div-kp{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.V3-about-h2-kp {
+    font-size: 32px;
+}
+
+.V3-about-para1-kp {
+    font-size: 20px;
+}
+
+.V3-about-para2-kp {
+    font-size: 20px;
+}
+
+.V3-about-button-kp{
+    width: 50%;
+    outline: none;
+    background-color: #FFA500;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    padding: 0.8rem 0.8rem;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    transition: .25s linear;
+}
+
+.V3-about-button-kp:hover {
+    box-shadow: 0 0 20px #FFA500;
+    border: 1px solid #FFA500;
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+}
