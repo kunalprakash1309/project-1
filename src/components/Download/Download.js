@@ -6,7 +6,7 @@ const Download = () => {
     return (
         <div className="V3-download-kp">
             <div className="V3-download-img-div-kp">
-                <img className="V3-download-img-kp" src={downloadImg} />
+                <img className="V3-download-img-kp" src={downloadImg} alt="download" />
             </div>
             <div className="V3-download-text-kp">
                 <h2 className="V3-download-h2-kp">6 Things to Look for in Lead Generation Partner</h2>

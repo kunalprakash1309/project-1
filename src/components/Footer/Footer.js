@@ -1,9 +1,6 @@
 import React from 'react'
 import './footer.css'
 import facebookIcon from '../../images/facebook.png'
-import instagramIcon from '../../images/instagram.png'
-import twitterIcon from '../../images/twitter.png'
-import linkedinIcon from '../../images/linkedin.png'
 import mailIcon from '../../images/mail.png'
 
 const Footer = () => {
@@ -13,10 +10,10 @@ const Footer = () => {
                 <div className="V3-footer-items-kp">
                     <div className="V3-footer-logo-kp" id="V3-footer-logo-kp">HERE LOGO</div>
                     <div className="V3-footer-socialIcon-kp">
-                        <img className="V3-footer-icon-kp" src={facebookIcon}></img>
-                        <img className="V3-footer-icon-kp" src={facebookIcon}></img>
-                        <img className="V3-footer-icon-kp" src={facebookIcon}></img>
-                        <img className="V3-footer-icon-kp" src={facebookIcon}></img>
+                        <img className="V3-footer-icon-kp" src={facebookIcon} alt="facebook"></img>
+                        <img className="V3-footer-icon-kp" src={facebookIcon} alt="facebook"></img>
+                        <img className="V3-footer-icon-kp" src={facebookIcon} alt="facebook"></img>
+                        <img className="V3-footer-icon-kp" src={facebookIcon} alt="facebook"></img>
                     </div>
                 </div>
                 <div className="V3-footer-items-kp">
@@ -63,7 +60,7 @@ const Footer = () => {
                     <h4 className="V3-footer-h4-kp">Subscribe to our News</h4>
                     <p className="V3-footer-p-kp">Stay informed and learn more about our demand generation solutions by providing your buisness email</p>
                     <div className="V3-footer-form-kp">
-                        <img className="V3-footer-mail-kp" src={mailIcon}></img>
+                        <img className="V3-footer-mail-kp" src={mailIcon} alt="mail"></img>
                         <input className="V3-footer-input-kp" placeholder="Email" />
                     </div>
                     <button className="V3-footer-button-kp">Submit</button>

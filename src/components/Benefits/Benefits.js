@@ -5,6 +5,9 @@ import './benefits.css'
 const Benefits = () => {
     return(
         <div className="V3-benefits-kp">
+            <div className="V3-benefits-img-div-kp">
+                <img src={BenefitsImg} className="V3-benefits-img-kp" alt="about" />
+            </div>
             <div className="V3-benefits-text-div-kp">
                 <h3 className="V3-benefits-h2-kp">Improve Your Strategic Content <br/> with Insights from V3Survey</h3>
                 <p className="V3-benefits-para1-kp">

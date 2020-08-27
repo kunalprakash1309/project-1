@@ -9,7 +9,7 @@ const Cards = () => {
         <div className="V3-cards-kp">
             <div className="V3-card-kp">
                 <div className="V3-card-img-div-kp">
-                    <img className="V3-card-img-kp" src={card1} />
+                    <img className="V3-card-img-kp" src={card1} alt="card1" />
                 </div>
                 <div className="V3-card-about-kp">
                     <h3 className="V3-card-h3-kp">Persona Filtering</h3>
@@ -22,7 +22,7 @@ const Cards = () => {
             </div>
             <div className="V3-card-kp">
                 <div className="V3-card-img-div-kp">
-                    <img className="V3-card-img-kp" src={card2} />
+                    <img className="V3-card-img-kp" src={card2} alt="card2" />
                 </div>
                 <div className="V3-card-about-kp">
                     <h3 className="V3-card-h3-kp">Our Brands</h3>
@@ -36,7 +36,7 @@ const Cards = () => {
             </div>
             <div className="V3-card-kp">
                 <div className="V3-card-img-div-kp">
-                    <img className="V3-card-img-kp" src={card3} />
+                    <img className="V3-card-img-kp" src={card3} alt="card3" />
                 </div>
                 <div className="V3-card-about-kp">
                     <h3 className="V3-card-h3-kp">Multi-Channel <br/>Engagement</h3>

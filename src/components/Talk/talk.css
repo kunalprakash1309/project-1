@@ -43,3 +43,30 @@
         font-size: 1rem;
     }
 }
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+    .V3-talk-kp {
+        margin: 0 10px;
+    }
+    .V3-talk-h2-kp {
+        font-size: 1rem;
+    }
+    .V3-talk-button-kp{
+        font-size: .6rem;
+        padding: 0.6rem 0.4rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .V3-talk-kp {
+        margin: 0 10px;
+        padding-bottom: 100px;
+    }
+    .V3-talk-h2-kp {
+        font-size: .8rem;
+    }
+    .V3-talk-button-kp{
+        font-size: .4rem;
+        padding: 0.6rem 0.4rem;
+    }
+}

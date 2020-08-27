@@ -1,13 +1,20 @@
 .V3-benefits-kp {
-    height: 140vh;
-    background: url('../../images/benefits.png') no-repeat right center;
-    background-size: cover;
+    position: relative;
+}
+
+.V3-benefits-img-div-kp {
+    width: 100%;
+}
+
+.V3-benefits-img-kp {
+    width: 100%;
 }
 
 .V3-benefits-text-div-kp{
-    width: 40%;
+    position: absolute;
+    Top: 35%;
+    width: 45%;
     margin: 0 5%;
-    padding-top: 22%;
     display: grid;
     grid-template-rows: 2fr 2fr 2fr 1fr 2fr;
     align-items: center;
@@ -53,13 +60,18 @@
 }
 
 @media only screen and (max-width: 1024px) and (min-width: 600px) {
-    .V3-benefits-kp {
-        background-position: center
+
+    .V3-benefits-img-kp {
+        height: 700px;
+    }
+
+    .V3-benefits-text-div-kp {
+        bottom: 20%;
+    
     }
 
     .V3-benefits-text-div-kp {
         width: 55%;
-        padding-top: 32%;
         grid-template-rows: 2fr 2fr 1.5fr .8fr 1fr;
     }
     .V3-benefits-h2-kp {
@@ -84,4 +96,80 @@
     .V3-benefits-button-kp{
         font-size: 1rem;
     }
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+
+    .V3-benefits-img-kp {
+        height: 650px;
+    }
+
+    .V3-benefits-text-div-kp {
+        width: 55%;
+        top: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .V3-benefits-h2-kp {
+        font-size: 1.5rem;
+        margin-bottom: 12px;
+    }
+    
+    .V3-benefits-para1-kp {
+        font-size: .8rem;
+        margin-bottom: 6px;
+    }
+    
+    .V3-benefits-para2-kp {
+        font-size: .8rem;
+        margin-bottom: 6px;
+    }
+    
+    .V3-benefits-para3-kp {
+        font-size: .8rem;
+        margin-bottom: 12px
+    }
+    .V3-benefits-button-kp{
+        font-size:.6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .V3-benefits-img-kp {
+        height: 650px;
+    }
+
+    .V3-benefits-text-div-kp {
+        width: 55%;
+        top: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .V3-benefits-h2-kp {
+        font-size: 1.25rem;
+        margin-bottom: 12px;
+    }
+    
+    .V3-benefits-para1-kp {
+        font-size: .7rem;
+        margin-bottom: 6px;
+    }
+    
+    .V3-benefits-para2-kp {
+        font-size: .7rem;
+        margin-bottom: 6px;
+    }
+    
+    .V3-benefits-para3-kp {
+        font-size: .7rem;
+        margin-bottom: 12px
+    }
+    .V3-benefits-button-kp{
+        font-size:.4rem;
+    }
+
 }

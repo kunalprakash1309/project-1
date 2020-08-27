@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="V3-about-kp">
             <div className="V3-about-img-div-kp">
-                <img className="V3-about-img-kp" src={AboutImg} />
+                <img className="V3-about-img-kp" src={AboutImg} alt="about" />
             </div>
             <div className="V3-about-text-div-kp">
                 <h3 className="V3-about-h2-kp">What are Your Target B2B Buyers <br/>Looking For?</h3>

@@ -78,3 +78,55 @@
         font-size: 1rem;
     }
 }
+
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .V3-about-kp {
+        margin: 0 10px;
+        grid-column-gap: 25px;
+    }
+    .V3-about-h2-kp {
+        font-size: 1.5rem;
+        margin-bottom: 3%;
+    }
+    
+    .V3-about-para1-kp {
+        font-size: .8rem;
+        margin-bottom: 2%;
+    }
+    
+    .V3-about-para2-kp {
+        font-size: .8rem;
+    }
+    .V3-about-button-kp{
+        font-size: .6rem;
+        align-self: baseline;
+        margin-top: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .V3-about-kp {
+        margin: 0 10px;
+        grid-column-gap: 10px;
+    }
+    .V3-about-h2-kp {
+        font-size: 1.25rem;
+        align-self: flex-end;
+        margin-bottom: 2%;
+    }
+    
+    .V3-about-para1-kp {
+        font-size: .7rem;
+        margin-bottom: 2%;
+    }
+    
+    .V3-about-para2-kp {
+        font-size: .7rem;
+    }
+    .V3-about-button-kp{
+        font-size: .4rem;
+        align-self: baseline;
+        margin-top: 10%;
+    }
+}
