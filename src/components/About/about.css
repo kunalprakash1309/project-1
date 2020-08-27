@@ -5,6 +5,7 @@
     grid-template-rows: auto;
     grid-column-gap: 100px;
     margin-bottom: 100px;
+    align-items: center;
 }
 
 .V3-about-img-kp {
@@ -48,4 +49,32 @@
     background-color: transparent;
     color: black;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px){
+
+    .V3-about-kp {
+        margin: 0 10px;
+        grid-column-gap: 50px;
+    }
+    .V3-about-text-div-kp {
+        align-items: none;
+        grid-template-rows: 1.5fr 2fr 2fr 1.2fr;
+    }
+    .V3-about-h2-kp {
+        font-size: 1.7rem;
+        margin-bottom: 3%;
+    }
+    
+    .V3-about-para1-kp {
+        font-size: 1rem;
+        margin-bottom: 2%;
+    }
+    
+    .V3-about-para2-kp {
+        font-size: 1rem;
+    }
+    .V3-about-button-kp{
+        font-size: 1rem;
+    }
 }

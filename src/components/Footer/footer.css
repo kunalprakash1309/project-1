@@ -77,16 +77,27 @@
     cursor: pointer;
 }
 
-.V3-footer-credit-kp {
-    /* background-color: black;
-    color: rgba(245, 245, 245, .85);
-    font-size: 12px; */
-}
-
 .V3-footer-credit-p-kp {
     height: 100px;
     padding-left: 60px;
     background-color: black;
     color: rgba(245, 245, 245, .85);
     font-size: 12px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+
+    .V3-footer-kp {
+        padding: 30px 5px 0 5px;
+    }
+    .V3-footer-input-kp {
+        width: 100px
+    }
+    .V3-footer-button-kp {
+        font-size: .7rem;
+        padding: .8rem 2rem
+    }
+    .V3-footer-credit-p-kp {
+        padding-left: 30px;
+    }
 }

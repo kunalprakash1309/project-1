@@ -31,3 +31,15 @@
     color: black;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .V3-talk-kp {
+        margin: 0 10px;
+    }
+    .V3-talk-h2-kp {
+        font-size: 1.6rem;
+    }
+    .V3-talk-button-kp{
+        font-size: 1rem;
+    }
+}

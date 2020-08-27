@@ -51,3 +51,37 @@
     color: white;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .V3-benefits-kp {
+        background-position: center
+    }
+
+    .V3-benefits-text-div-kp {
+        width: 55%;
+        padding-top: 32%;
+        grid-template-rows: 2fr 2fr 1.5fr .8fr 1fr;
+    }
+    .V3-benefits-h2-kp {
+        font-size: 1.7rem;
+    }
+    
+    .V3-benefits-para1-kp {
+        font-size: 1rem;
+        align-self: baseline
+    }
+    
+    .V3-benefits-para2-kp {
+        font-size: 1rem;
+        align-self: baseline
+    }
+    
+    .V3-benefits-para3-kp {
+        font-size: 1rem;
+        align-self: baseline;
+        margin-bottom: 2%;
+    }
+    .V3-benefits-button-kp{
+        font-size: 1rem;
+    }
+}

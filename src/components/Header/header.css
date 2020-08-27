@@ -21,3 +21,24 @@
     font-size: 72px;
     font-weight: 100;
 }
+
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+    .V3-header-kp{
+        height: 700px;
+        margin-bottom: 50px;
+    }
+
+    .V3-header-about-kp{
+        padding-top: 30%;
+        padding-left: 7%;
+    }
+    .V3-Headerh4-kp {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    .V3-Headerh1-kp {
+        font-size: 44px;
+        font-weight: 100;
+    }
+}
