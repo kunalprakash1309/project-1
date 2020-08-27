@@ -15,7 +15,6 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 30px;
 }
 
 .V3-about-h2-kp {
@@ -31,10 +30,10 @@
 }
 
 .V3-about-button-kp{
-    width: 50%;
     outline: none;
     background-color: #FFA500;
     font-size: 1.15rem;
+    justify-self: baseline;
     text-transform: uppercase;
     padding: 0.8rem 0.8rem;
     border-radius: 50px;

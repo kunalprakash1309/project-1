@@ -11,7 +11,7 @@
     display: grid;
     grid-template-rows: 2fr 2fr 2fr 1fr 2fr;
     align-items: center;
-    grid-gap: 20px;
+    grid-gap: 2%;
     color: white;
 }
 
@@ -32,7 +32,6 @@
 }
 
 .V3-benefits-button-kp{
-    width: 50%;
     outline: none;
     background-color: #FFA500;
     font-size: 1.15rem;
@@ -42,6 +41,7 @@
     border: none;
     color: white;
     transition: .25s linear;
+    justify-self: baseline;
 }
 
 .V3-benefits-button-kp:hover {
